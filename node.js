@@ -1,0 +1,7 @@
+const express=require('express');
+const app=express();
+app.get('/', (req,res)=>{
+	res.send("Hello DevOps World!");
+});
+app.listen(3000,()=>
+	console.log("Script running on port 30000")
